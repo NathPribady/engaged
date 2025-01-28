@@ -151,7 +151,7 @@ export function AddSourcesModal({ open, onOpenChange, onFileProcessed, notebookI
             multiple
             accept=".doc,.docx,.pdf,.txt"
           />
-          <p className="mt-2 text-xs text-muted-foreground">Supported file types: DOC, DOCX, PDF, TXT</p>
+          <p className="mt-2 text-xs text-muted-foreground">Supported file types: DOC, DOCX</p>
         </div>
         {error && (
           <div className="mt-4 p-4 bg-red-100 border border-red-400 text-red-700 rounded">

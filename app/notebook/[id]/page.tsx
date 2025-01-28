@@ -63,8 +63,8 @@ export default function NotebookPage({ params }: { params: { id: string } }) {
   }
 
   const handleFileProcessed = () => {
-    fetchSummary() // Refresh the summary after new file is processed
-    setIsAddSourcesOpen(false) // Close the modal after processing
+    fetchSummary()
+    setIsAddSourcesOpen(false)
   }
 
   if (isLoading) {
